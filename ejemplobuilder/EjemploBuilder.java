@@ -4,10 +4,13 @@
  */
 package ejemplobuilder;
 
+import View.CarConsole;
+
 public class EjemploBuilder {
 
     public static void main(String[] args) {
-        
+        CarConsole view = new CarConsole();
+        view.show();
     }
     
 }
